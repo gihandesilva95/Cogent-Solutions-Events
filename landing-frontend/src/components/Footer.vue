@@ -25,7 +25,7 @@
           
           <div class="office-location">
             <div class="location-icon">
-              <i class="fas fa-map-marker-alt"></i>
+              <img src="/src/assets/location.png" alt="Location" class="icon-image-contact">
             </div>
             <div class="location-details">
               <p class="location-title">Middle East & Africa HQ</p>
@@ -36,7 +36,7 @@
 
           <div class="office-location">
             <div class="location-icon">
-              <i class="fas fa-map-marker-alt"></i>
+              <img src="/src/assets/location.png" alt="Location" class="icon-image-contact">
             </div>
             <div class="location-details">
               <p class="location-title">Asia Pacific HQ</p>
@@ -47,7 +47,7 @@
 
           <div class="office-location">
             <div class="location-icon">
-              <i class="fas fa-map-marker-alt"></i>
+              <img src="/src/assets/location.png" alt="Location" class="icon-image-contact">
             </div>
             <div class="location-details">
               <p class="location-title">Saudi Arabia HQ</p>
@@ -57,14 +57,14 @@
 
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="fas fa-phone-alt"></i>
+              <img src="/src/assets/call.png" alt="Phone" class="icon-image-contact">
             </div>
             <p>+971 50 5718867</p>
           </div>
 
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="fas fa-envelope"></i>
+              <img src="/src/assets/email.png" alt="Email" class="icon-image-contact">
             </div>
             <p>partnerships@cogentsolutions.ae</p>
           </div>
@@ -156,23 +156,38 @@
 
   .office-location {
     display: flex;
+    align-items: flex-start;
     margin-bottom: 20px;
   }
 
   .location-icon, .contact-icon {
     margin-right: 15px;
-    min-width: 20px;
-    color: #ccc;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-image-contact {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
   }
 
   .location-title {
     font-weight: 500;
     margin-bottom: 5px;
+    margin-top: 0;
   }
 
   .location-details p {
     margin: 3px 0;
     color: #ccc;
+    line-height: 1.4;
+  }
+  
+  .location-details {
+    padding-top: 3px;
   }
 
   .contact-item {

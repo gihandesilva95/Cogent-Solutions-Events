@@ -50,6 +50,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'SpeakersSection',
   data() {
@@ -60,105 +61,105 @@ export default {
           name: 'Mr. Mohamed Elazzazy',
           title: 'Head of IT Governance and Change Management',
           company: 'Al-Baraka Bank Egypt',
-          image: '/src/assets/speakers/speaker0.png',
+          image: '/images/speakers/speaker0.png',
           Bio: ''
         },
         {
           name: 'Mr. Shehab Moustafa',
           title: 'Country Center of Excellence Director',
           company: 'Money Fellows',
-          image: '/src/assets/speakers/speaker1.jpg',
+          image: '/images/speakers/speaker1.jpg',
           Bio: ''
         },
         {
           name: 'Mr. Marwan Abouzeid',
           title: 'Principal Solutions Consultant & Customer Value Lead, MEA & APAC',
           company: 'Finastra',
-          image: '/src/assets/speakers/speaker2.jpg',
+          image: '/images/speakers/speaker2.jpg',
           Bio: 'Marwan Abouzeid is a seasoned professional with over 22 years of experience in the Fintech industry. Currently serving as the Principal Solutions Consultant & Customer Value Lead for MEA and APAC at Finastra, Marwan is known for his strategic consulting, customer relationship management, and business development expertise.'
         },
         {
           name: 'Mr. Karim El Mourabet',
           title: 'Solution Consulting Director - MEA',
           company: 'Finastra',
-          image: '/src/assets/speakers/speaker3.jpg',
+          image: '/images/speakers/speaker3.jpg',
           Bio: 'Karim El Mourabet leads the Retail Banking Solution Consulting team at Finastra, covering Middle East & Africa. He has over 12 years’ experience in retail banking software implementation and consulting and working with Digital Banks. He previously led the Innovation services for Finastra Global Services team and worked on Next Gen implementation services, including core banking migrations.'
         },
         {
           name: 'Ms. Siobhan Byron',
           title: 'Executive Vice President, Universal Banking',
           company: 'Finastra',
-          image: '/src/assets/speakers/speaker4.jpg',
+          image: '/images/speakers/speaker4.jpg',
           Bio: ' Siobhan oversees Universal Banking, including market leading core banking and digital solutions globally. She has more than 25 years of experience in IT and channel management, as well as leading and growing prominent technology companies across financial services, insurance, manufacturing, and public sectors. Siobhan is a strong advocate for diversity and inclusion.'
         },
         {
           name: 'Mr. Narendra Mistry',
           title: 'Chief Product and Technology Officer Universal Banking',
           company: 'Finastra',
-          image: '/src/assets/speakers/speaker5.jpg',
+          image: '/images/speakers/speaker5.jpg',
           Bio: 'Narendra leads the global product and technology organization for Universal Banking as the Chief Product and Technology Officer (CPTO). Narendra has been in the financial software industry for more than 25 years and his career with Finastra spans more than 13 years in various leadership roles, including running product for International Retail.'
         },
         {
           name: 'Mr. Ahmed Hamdy Bahey El Din',
           title: 'Head of Information Technology',
           company: 'Incolease',
-          image: '/src/assets/speakers/speaker6.jpg',
+          image: '/images/speakers/speaker6.jpg',
           Bio: 'Ahmed Hamdy is a results-driven IT professional with extensive experience leading IT departments and delivering innovative solutions. As the IT Head at Incolease, he manages all IT operations, ensuring strategic alignment, process optimization, and efficient resource management.'
         },
         {
           name: 'Mr. Emad Shawky Habib Hanna',
           title: 'Chief Data and Analytics Officer',
           company: 'Banque Misr',
-          image: '/src/assets/speakers/speaker7.png',
+          image: '/images/speakers/speaker7.png',
           Bio: ''
         },
         {
           name: 'Ms. Heba Yehia',
           title: 'Head of Digital Products',
           company: 'Arab African International Bank',
-          image: '/src/assets/speakers/speaker8.jpg',
+          image: '/images/speakers/speaker8.jpg',
           Bio: ''
         },
         {
           name: 'Mr. Hamid Nirouzad',
           title: 'Managing Director - Africa',
           company: 'Finastra Universal',
-          image: '/src/assets/speakers/speaker9.jpg',
+          image: '/images/speakers/speaker9.jpg',
           Bio: ' Hamid Nirouzad is a seasoned professional in the fintech industry. He began his career at National Westminster Bank in the UK before joining Midas-Kapiti in 1994. Throughout his tenure at Finastra, Hamid has played a pivotal role in various business aspects across Europe and the MEA regions. With a robust background in both retail and corporate banking, he possesses a comprehensive understanding of the banking sector.'
         },
         {
           name: 'Mr. Rudy Kawmi',
           title: 'Managing Director - Middle East, Africa & Asia-Pacific',
           company: 'Finastra Universal Banking',
-          image: '/src/assets/speakers/speaker10.jpg',
+          image: '/images/speakers/speaker10.jpg',
           Bio: 'Rudy Kawmi oversees the Retail Banking business across the Middle East, Africa, and Asia-Pacific regions at Finastra. With a career dedicated to financial technology, Rudy has collaborated with banks on numerous digital transformation initiatives. As a proponent of innovative business models that promote financial inclusion, he is passionate about establishing fintech partnerships across these regions to drive innovation and expand access to next-generation banking systems.'
         },
         {
           name: 'Mr. Matthew Hughes',
           title: 'Head of FS&I, International Markets',
           company: 'Atos',
-          image: '/src/assets/speakers/speaker11.jpg',
+          image: '/images/speakers/speaker11.jpg',
           Bio: 'Matthew Hughes is a seasoned professional with over 25 years of experience in the financial services and insurance sectors. Matthew worked for 17 years at Royal Bank of Scotland in various leadership roles, including Country Head of Operations in China, Head of Retail and Commercial Banking in China, Head of Core Banking Operations for England and Wales, and Head of Consumer Finance for Spain and Portugal.'
         },
         {
           name: 'Mr. Daragh O-Byrne',
           title: 'Senior Director, Marketing, Universal Banking',
           company: 'Finastra',
-          image: '/src/assets/speakers/speaker12.jpg',
+          image: '/images/speakers/speaker12.jpg',
           Bio: 'Daragh leads the Finastra Universal Banking marketing team. For more than 25 years he has worked in the Financial Services application software market, focusing on ensuring that software provides tangible business benefits for customers, and that those business benefits are explained in a clear, concise and compelling way via an integrated set of creative marketing activities that generate results.'
         },
         {
           name: 'Dr. Ismail Ali',
           title: 'Co-Founder and CEO',
           company: 'CARITech',
-          image: '/src/assets/speakers/speaker13.jpg',
+          image: '/images/speakers/speaker13.jpg',
           Bio: 'Dr. Ismail Ali is the Co-Founder and CEO of CARITech, a digital banking solutions provider supporting financial institutions across the Middle East and Africa. With over 25 years of experience in financial technology, Dr. Ali has led core banking modernization programs for both Islamic and conventional banks—helping them overcome legacy challenges and respond to dynamic market demands.'
         },
         {
           name: 'Ms. Riham Muhammad',
           title: 'Corporate CEX Senior Analyst',
           company: 'FABMISR',
-          image: '/src/assets/speakers/speaker14.png',
+          image: '/images/speakers/speaker14.png',
           Bio: ''
         },
       ]
